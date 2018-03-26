@@ -1,0 +1,42 @@
+.house-container {
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 150px;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+.house-image {
+    height: 100%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: auto
+}
+.house-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:30%
+}
+.house-pricing {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.house-pricing span {
+    margin: 5px;
+}
+.house-container button {
+    width: 5%;
+    border: none;
+    background-color: #DEDEDE;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.house-container span {
+    text-align: left;
+    
+}

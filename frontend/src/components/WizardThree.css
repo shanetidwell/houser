@@ -1,0 +1,30 @@
+.mortgage-input {
+    width: 500px;
+}
+.rent-input {
+    width: 500px;
+}
+.wizard-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.recommended-rent {
+    margin-bottom: 20px;
+}
+.previous-complete-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.complete-button{
+    border: none;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;   
+}

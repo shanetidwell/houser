@@ -1,0 +1,25 @@
+.url-input {
+    width: 500px;
+}
+.wizard-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.previous-button{
+    border: none;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;   
+}
+.previous-next-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 340px;
+    margin-right: 40px;
+    margin-left: 40px;
+}

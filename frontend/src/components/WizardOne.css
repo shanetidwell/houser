@@ -1,0 +1,91 @@
+.wizard-page {
+    display: flex;
+    justify-content: center;
+    background-color: #afd4c0;
+    width: 100%;
+    height: 87vh;
+}
+.wizard-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5F4EC;
+    width: 800px;
+}
+.wizard-container span {
+    font-family: 'Open Sans', sans-serif;
+}
+.new-listing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.new-listing-header span {
+    font-size: 2rem;
+}
+.cancel-button {
+    border: none;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #FEC2C2;
+}
+.next-button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.property {
+    display: flex;
+    flex-direction: column;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+}
+.city-state-zip {
+    display: flex;
+}
+.wizard-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.wizard-input span {
+    text-align: left;
+    margin-left: 5px;
+}
+.property-input {
+    width: 200px;
+}
+.address-input {
+    width: 500px;
+}
+.city-input {
+    width: 200px;
+}
+.state-input {
+    width: 95px;
+}
+.zip-input {
+    width: 150px;
+}
+.input-container{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.next-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 250px;
+}
